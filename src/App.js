@@ -82,8 +82,10 @@ class App extends Component {
           </button>
         </span>
       </li>
+
     ));
   };
+
   toggle = () => {
     this.setState({ modal: !this.state.modal });
   };
