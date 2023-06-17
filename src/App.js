@@ -37,13 +37,13 @@ class App extends Component {
           onClick={() => this.displayCompleted(true)}
           className={this.state.viewCompleted ? "active" : ""}
         >
-          Complete
+          Completed Tasks
         </span>
         <span
           onClick={() => this.displayCompleted(false)}
           className={this.state.viewCompleted ? "" : "active"}
         >
-          Incomplete
+          Incomplete Tasks
         </span>
       </div>
     );
